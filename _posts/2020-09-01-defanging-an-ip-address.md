@@ -39,7 +39,7 @@ Javascript has many native methods to help us solve this problem.
 
 First, I split the strings by characters, which returns an array. Then, I map over the array, and for each character, I return the character _unless_ the character is a period - in which case, I'll return a concatenated string with the character sandwiched in-between.
 
-    const defangIPaddr = function(address) {
+    const defangIPaddr = (address) => {
         return address.split("").map(char=> {
             if(char === ".") return "[" + char +"]"
                 return char;
@@ -52,7 +52,7 @@ This had a poor runtime.
 
 I suspected the overreliance on built-in methods was slowing down the runtime, so I decided to try and approach it in a different manner (conventional concatenation via a loop).
 
-    const defangIPaddr = function(address) {
+    const defangIPaddr = (address) => {
         let word = "";
         let arr = address.split("");
 
@@ -75,7 +75,7 @@ Simple and easy to understand, but pretty bad in terms of runtime (only faster t
 
 Looking at other code examples, I also realized that I splitting the word into an array for seemingly no reason. Could've just looped over the word, like so:
 
-    const defangIPaddr = function(address) {
+    const defangIPaddr = (address) => {
         let word = "";
 
         for (let i = 0; i < address.length; i++) {

@@ -42,7 +42,7 @@ Loop through the indices array - find the appropriate position of the array we c
 
 Join the array back together to become a string.
 
-    const restoreString = function(s, indices) {
+    const restoreString = (s, indices) => {
 
         let output = [];
 
@@ -74,7 +74,7 @@ Let's take a look at another solution, perhaps a more exciting one:
 
 **Solution 2**
 
-    const restoreString = function(s, indices) => {
+    const restoreString = (s, indices) => {
         let map = {};
         let output = "";
 
