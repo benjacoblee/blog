@@ -89,7 +89,7 @@ Let's take a look at another solution, perhaps a more exciting one:
         return output;
     }
 
-The interesting thing about this is that, although we are assigning key value pairs to the map, it _preserves the order of the indexes_! If we console.log the first loop and look at the output:
+The interesting thing about this is that, although we are assigning key-value pairs to the map (with indexes as the key), it _preserves the order of the indexes_! If we console.log the first loop and look at the output:
 
     {4: "c"}
     {4: "c", 5: "o"}
