@@ -51,7 +51,7 @@ Early computers used binary due to physical limitations. Everything that is done
 
     11111111
 
-Additionally, binary electronics either have a current, or they don't. Assuming we used a base-3 system - each transistor would need to be able to interpret a range of values representing "some" (or, 0, 1 and 2). At some point, electronics degrade; a component may be unable to transmit the required modulation to produce a "2", and our logic gates stop working as intended. And that's what we don't use base-10 - a base-10 system would need to be able to reflect 10 different states!
+Additionally, binary electronics either have a current, or they don't. Assuming we used a base-3 system - each transistor would need to be able to interpret a range of values representing "some" (or, 0, 1 and 2). At some point, electronics degrade; a component may be unable to transmit the required power to produce a "2", and our logic gates stop working as intended. And that's what we don't use base-10 - a base-10 system would need to be able to reflect 10 different states!
 
 **Binary and ASCII**
 
