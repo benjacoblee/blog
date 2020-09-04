@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'A "bit" about Binary and Bitwise'
+title: 'A "bit" about Binary and Bitwise Operators'
 date: 2020-09-04 16:07:08 +0800
 categories: leetcode, bitwise, binary
 ---
