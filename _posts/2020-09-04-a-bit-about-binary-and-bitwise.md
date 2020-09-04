@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'A "bit" about Binary and Bitwise'
-date: 2020-09-02 15:57:08 +0800
+date: 2020-09-04 16:07:08 +0800
 categories: leetcode, bitwise, binary
 ---
 
