@@ -65,4 +65,4 @@ Which is a nice, slightly different way to reverse the values.
 
 Condensed into a one-liner:
 
-    const flipAndInvertImage = (A) => A.map(arr => arr.reverse().map(el => el^1));
+    const flipAndInvertImage = (A) => A.map(arr => arr.reverse().map(el => el ^ 1));
