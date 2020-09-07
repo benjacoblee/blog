@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Maximum 69 Number"
-date: 2020-09-04 12:38:00 +0800
+date: 2020-09-07 12:38:00 +0800
 categories: leetcode, string manipulation, number manipulation
 ---
 
