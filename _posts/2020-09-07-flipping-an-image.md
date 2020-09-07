@@ -46,8 +46,8 @@ The problem:
 Or, we could use XOR logic gates:
 
     const flipAndInvertImage = (A) => {
-        let reversed = A.map(arr => arr.reverse());
-        let inverted = A.map(arr => {
+        const reversed = A.map(arr => arr.reverse());
+        const inverted = A.map(arr => {
             return arr.map(el => {
                 return el ^ 1;
             })
