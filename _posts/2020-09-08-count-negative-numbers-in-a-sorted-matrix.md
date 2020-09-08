@@ -34,7 +34,7 @@ An easy way to solve this problem would be to use a nested loop.
 -   Initialize a counter
 -   Loop through the main array
 -   Loop through the subarrays
--   Check if the current element of the subarray is a negative number, increment the counter
+-   Check if the current element of the subarray is a negative number. If it is, increment the counter
 
         const countNegatives = (grid) => {
             let negatives = 0;
